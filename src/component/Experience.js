@@ -24,7 +24,7 @@ function Experience() {
         <CardExperience
           logoSociety={logoErgoMada}
           titre="Développeur web"
-          annee="En cours"
+          annee="2020 - En cours"
         />
         <CardExperience
           logoSociety={logoSymphony}
