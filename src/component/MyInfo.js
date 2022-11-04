@@ -4,8 +4,10 @@ function MyInfo() {
   return (
     <div className="header">
       <div className="container information">
-        <h2>Aimé Joseph ANDRIANOMENTSOA</h2>
-        <p>Développeur Web</p>
+        <h2 className="animate__animated animate__bounceIn">
+          Aimé Joseph ANDRIANOMENTSOA
+        </h2>
+        <p className="animate__animated animate__fadeInUp">Développeur Web</p>
         <img src={andry} alt=""></img>
       </div>
     </div>
