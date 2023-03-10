@@ -10,10 +10,11 @@ import logoMongoDd from "../assets/image/mongoDB.png";
 import logoReact from "../assets/image/logo512.png";
 import logoMaterial from "../assets/image/material.png";
 import logoAngular from "../assets/image/angular.jpg";
+import logoTs from "../assets/image/logoTs.png";
 
 function CardConnaisance({ logoTechno }) {
   return (
-    <div className="col-md-2 col-sm-4 col-xs-6">
+    <div className="col-md-2 col-sm-6 col-xs-12 col text-center">
       <div className="cardConnaisance">
         <img src={logoTechno} alt=""></img>
       </div>
@@ -37,6 +38,7 @@ function Connaisance() {
         <CardConnaisance logoTechno={logoMysql} />
         <CardConnaisance logoTechno={logoMongoDd} />
         <CardConnaisance logoTechno={logoGit} />
+        <CardConnaisance logoTechno={logoTs} />
       </div>
     </>
   );
